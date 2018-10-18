@@ -10,13 +10,12 @@ console.log(theBeatlesPlay(["John Lennon", "Billy Briggs"], ["Drums", "Bongoes"]
 
 function johnLennonFacts(facts){
 let array2 = []
-let i = -1
-	while (i <facts.length -1){
+let i = 0 
+	while (i <facts.length){
 // i should start at minus one and end 1 before the end 
+array2.push(facts[i] + "!!!")	
 	i++
-console.log(i)
-array2.push(facts[i] + "!!!")
 }
 return array2
 }
-console.log(johnLennonFacts(["He eats mud", "He Likes cake", "and toast", "and beatles"]))
+
