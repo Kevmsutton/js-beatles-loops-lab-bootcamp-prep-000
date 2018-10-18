@@ -18,4 +18,14 @@ array2.push(facts[i] + "!!!")
 }
 return array2
 }
-
+function iLoveTheBeatles(num){
+let array = []
+let i = 0
+do {
+i = i + 1;
+array.push("I love the Beatles!")	
+}
+while(i < 15 - num)
+return (array)
+}
+console.log(iLoveTheBeatles(10))
